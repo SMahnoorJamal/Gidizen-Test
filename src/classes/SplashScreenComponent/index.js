@@ -28,8 +28,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'white', // Adjust the background color as needed
   },
   logo: {
-    width: 200, // Adjust the width and height as needed
-    height: 200,
+    width: 300, // Adjust the width and height as needed
+    height: 300,
     resizeMode: 'contain',
   },
 });

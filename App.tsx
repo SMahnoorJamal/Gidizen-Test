@@ -20,7 +20,9 @@ const App = () => {
   }, []);
 
   return isSplashVisible ? <SplashScreenComponent /> :
+ 
  <Provider store={store}>
+ 
     <Navigation/>
 </Provider>
  

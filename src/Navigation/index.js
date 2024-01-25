@@ -5,6 +5,8 @@ import {
   StyleSheet, Image, View, Text
 } from 'react-native';
 import Form from '../classes/Form';
+import FormAddPost from '../classes/FormAddPost';
+import FormHome from '../classes/FormHome';
 import LoginScreen from '../classes/LoginScreen/index';
 // import { TaskScreen } from './src/screens/TaskSceen';
 import { NavigationContainer } from '@react-navigation/native';
@@ -31,6 +33,12 @@ const App = () => {
          <Stack.Screen
           name="Form"
           component={Form} />
+          <Stack.Screen
+          name="FormHome"
+          component={FormHome} />
+             <Stack.Screen
+          name="FormAdd"
+          component={FormAddPost} />
        <Stack.Screen
           name="LoginSceen"
           component={LoginScreen} />

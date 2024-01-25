@@ -14,7 +14,7 @@ const userReducer = (state = initialState, action) => {
     case SAVE_USER_DATA:
       {console.log("userDataSave", action, state)}
       return {
-         state,
+         ...state,
         userData: action.payload,
       };
     default:

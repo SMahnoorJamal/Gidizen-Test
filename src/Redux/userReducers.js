@@ -6,11 +6,13 @@ const initialState = {
 };
 
 const userReducer = (state = initialState, action) => {
- console.log("stateredu", state, ...state)
+ console.log("stateredu", state)
     switch (action.type) {
+      
     case SAVE_USER_DATA:
+      {console.log("userDataSave", action)}
       return {
-        ...state,
+        // ...state,
         userData: action.payload,
       };
     default:

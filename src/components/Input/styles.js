@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
         width: '40%',
     },
     iconStyle: {
-        color: '#000000',
+backgroundColor: '#000000',
         resizeMode: 'contain',
         height: '40%',
         width: '30%',

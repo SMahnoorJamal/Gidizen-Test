@@ -2,7 +2,9 @@
 import { SAVE_USER_DATA } from './userActions';
 
 const initialState = {
-  userData: {},
+  userData: {
+    name:'hello',email: '776hgh'
+  }
 };
 
 const userReducer = (state = initialState, action) => {
@@ -10,9 +12,9 @@ const userReducer = (state = initialState, action) => {
     switch (action.type) {
       
     case SAVE_USER_DATA:
-      {console.log("userDataSave", action)}
+      {console.log("userDataSave", action, state)}
       return {
-        // ...state,
+         state,
         userData: action.payload,
       };
     default:

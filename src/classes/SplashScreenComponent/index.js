@@ -13,7 +13,7 @@ const SplashScreenComponent = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../../Images/Photo6.png')}
+        source={require('../../Images/logo.jpg')}
         style={styles.logo}
       />
     </View>

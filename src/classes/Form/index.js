@@ -44,7 +44,7 @@ class Form extends React.Component {
     <ScrollView>
       <BoxL></BoxL>
       <View style={formStyles.container}>
-        <Text style={formStyles.text}>{'Register'}</Text>
+        <Text style={formStyles.text}>{'User Form'}</Text>
         <View style={{ padding: '8%' }}>
           <Input
             placeholder="Email"
@@ -72,15 +72,21 @@ class Form extends React.Component {
             />
 
 
-<View style={{ marginTop: 15 }}>
+<View style={{ marginTop: 15, alignItems: 'center' }}>
               <View>
                 <Text style={{ width: '130%' }}>Don't have an account?</Text>
               </View>
+
+              
             </View>
             {/* <CustomText onPress={navigation.navigate('Cart')} touchable={true}/> */}
-            <TouchableOpacity onPress={()=> this.props.navigation.navigate('LoginScreen')}>
+            
+            <View style={{alignItems: 'center'}}> 
+            <TouchableOpacity 
+            onPress={()=> this.props.navigation.navigate('Shipping')}>
               <Text style={{ width: '150%' }}>Login</Text>
             </TouchableOpacity>
+              </View>
           </View>
           </View>
           

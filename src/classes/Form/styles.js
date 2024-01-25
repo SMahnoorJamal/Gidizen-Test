@@ -39,7 +39,7 @@ export const formStyles = StyleSheet.create({
     justifyContent: 'center',
   },
   buttonContainer:{
-    marginTop: 26
+    marginTop: 26,
   },
   buttonText: {
     color: 'white',

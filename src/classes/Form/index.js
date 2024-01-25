@@ -5,7 +5,7 @@ import { formStyles } from './styles';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 import { BoxL } from '../../components/BoxL';
-import { connect } from 'react-GidizenTest2';
+// import { connect } from 'react-GidizenTest2';
 import { saveUserData } from '../../Redux/userActions';
 
 class Form extends React.Component {
